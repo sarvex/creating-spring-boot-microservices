@@ -20,5 +20,16 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true,
-  "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "workbench.colorCustomizations": {
+    "sash.hoverBorder": "#6a0cb6",
+    "statusBar.background": "#4e0986",
+    "statusBar.border": "#4e0986",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#6a0cb6",
+    "statusBarItem.remoteBackground": "#4e0986",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "tab.activeBorder": "#6a0cb6"
+  },
+  "peacock.color": "#4e0986"
 }
