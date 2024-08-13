@@ -2,7 +2,7 @@ package com.example.tourservice;
 
 /**
  * The Tour contains all attributes of an Explore California Tour.
- *
+ * <p>
  * Created by Mary Ellen Bowman
  */
 public record Tour(String title, Integer price, Boolean kidFriendly) {
