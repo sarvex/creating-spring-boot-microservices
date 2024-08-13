@@ -7,11 +7,12 @@ import com.example.tourservice.utilities.TourRepository;
 
 @Configuration
 public class SpringBeans {
- 
+
   @Bean
   public TourRepository tourRepository() {
     return new TourRepository();
   }
+
   @Bean
   public TourManagementService tourManagementService() {
     return new TourManagementService(tourRepository());
@@ -20,5 +21,5 @@ public class SpringBeans {
   @Bean
   public TravelAgentService travelAgentService() {
     return new TravelAgentService(tourRepository());
-  } 
+  }
 }
